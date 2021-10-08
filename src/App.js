@@ -51,7 +51,7 @@ const handleSignOut = () =>{
 
   return (
     <div className="App">
-      {!user.name?
+      {!user.photo?
         <div>
       <button onClick={handleGoogleSignIn}>Google sign in</button>
       <button onClick={handleGithubSignIn}>Github sign in</button>
